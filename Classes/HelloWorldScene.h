@@ -3,7 +3,7 @@
 
 #include "cocos2d.h"
 
-class HelloWorld : public cocos2d::Layer
+class HelloWorld : public cocos2d::LayerColor
 {
 public:
     static cocos2d::Scene* createScene();
@@ -15,6 +15,8 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
+    
+    void ShowRankTable();
 };
 
 #endif // __HELLOWORLD_SCENE_H__
