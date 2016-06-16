@@ -10,13 +10,13 @@ public:
 
     virtual bool init();
     
-    // a selector callback
-    void menuCloseCallback(cocos2d::Ref* pSender);
-    
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
     
     void ShowRankTable();
+    
+private:
+    cocos2d::Point origin;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

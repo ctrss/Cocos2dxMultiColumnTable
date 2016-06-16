@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
+#include "SyCCScene.h"
 
 USING_NS_CC;
 
@@ -75,7 +75,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    auto scene = SyCCScene::createScene(Color4B(255, 255, 255, 255));
 
     // run
     director->runWithScene(scene);

@@ -1,5 +1,7 @@
 #include "HelloWorldScene.h"
 #include "RankTableDataSource.h"
+#include "SyCCGridTableView.h"
+#include "SyCCTableData.h"
 
 USING_NS_CC;
 USING_NS_CC_EXT;
@@ -30,22 +32,7 @@ bool HelloWorld::init()
     }
     
     Size visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
-
-    /////////////////////////////
-    // 2. add a menu item with "X" image, which is clicked to quit the program
-    //    you may modify it.
-
-    // add a "close" icon to exit the progress. it's an autorelease object
-
-    // add "HelloWorld" splash screen"
-    auto sprite = Sprite::create("HelloWorld.png");
-
-    // position the sprite on the center of the screen
-    sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-
-    // add the sprite as a child to this layer
-    this->addChild(sprite, 0);
+    origin = Director::getInstance()->getVisibleOrigin();
     
     ShowRankTable();
     
@@ -56,7 +43,6 @@ void HelloWorld::ShowRankTable()
 {
     RankTableDataSource* tvDataSource = new RankTableDataSource();
     TableView *rankTableView = TableView::create(tvDataSource, Size(130, 30));
-    
     float posX, posY;
     
     Size winSize = Director::sharedDirector()->getWinSize();
@@ -70,13 +56,4 @@ void HelloWorld::ShowRankTable()
     this->addChild(rankTableView, 0);
     
     std::vector<std::string> rankList = tvDataSource->_sharedData;
-}
-
-void HelloWorld::menuCloseCallback(Ref* pSender)
-{
-    Director::getInstance()->end();
-
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    exit(0);
-#endif
 }

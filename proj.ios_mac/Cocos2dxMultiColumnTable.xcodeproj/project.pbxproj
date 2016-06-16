@@ -63,6 +63,13 @@
 		6BB7A9F71CC5F4A00060F09A /* RankTableDataSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7A9F41CC5F4A00060F09A /* RankTableDataSource.cpp */; };
 		6BB7A9FA1CC5F4B60060F09A /* RankTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7A9F81CC5F4B60060F09A /* RankTableCell.cpp */; };
 		6BB7A9FB1CC5F4B60060F09A /* RankTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7A9F81CC5F4B60060F09A /* RankTableCell.cpp */; };
+		6BB7A9FE1CC60ED50060F09A /* SyCCScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7A9FC1CC60ED50060F09A /* SyCCScene.cpp */; };
+		6BB7A9FF1CC60ED50060F09A /* SyCCScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7A9FC1CC60ED50060F09A /* SyCCScene.cpp */; };
+		6BB7AA031CC614770060F09A /* SyCCGridTableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7AA011CC614770060F09A /* SyCCGridTableView.cpp */; };
+		6BB7AA061CC620320060F09A /* SyCCTableItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7AA041CC620320060F09A /* SyCCTableItem.cpp */; };
+		6BB7AA071CC620320060F09A /* SyCCTableItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7AA041CC620320060F09A /* SyCCTableItem.cpp */; };
+		6BB7AA0A1CC62C170060F09A /* SyCCTableData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7AA081CC62C170060F09A /* SyCCTableData.cpp */; };
+		6BB7AA0B1CC62C170060F09A /* SyCCTableData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7AA081CC62C170060F09A /* SyCCTableData.cpp */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -161,6 +168,14 @@
 		6BB7A9F51CC5F4A00060F09A /* RankTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankTableDataSource.h; sourceTree = "<group>"; };
 		6BB7A9F81CC5F4B60060F09A /* RankTableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RankTableCell.cpp; sourceTree = "<group>"; };
 		6BB7A9F91CC5F4B60060F09A /* RankTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankTableCell.h; sourceTree = "<group>"; };
+		6BB7A9FC1CC60ED50060F09A /* SyCCScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SyCCScene.cpp; sourceTree = "<group>"; };
+		6BB7A9FD1CC60ED50060F09A /* SyCCScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyCCScene.h; sourceTree = "<group>"; };
+		6BB7AA011CC614770060F09A /* SyCCGridTableView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SyCCGridTableView.cpp; sourceTree = "<group>"; };
+		6BB7AA021CC614770060F09A /* SyCCGridTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyCCGridTableView.h; sourceTree = "<group>"; };
+		6BB7AA041CC620320060F09A /* SyCCTableItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SyCCTableItem.cpp; sourceTree = "<group>"; };
+		6BB7AA051CC620320060F09A /* SyCCTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyCCTableItem.h; sourceTree = "<group>"; };
+		6BB7AA081CC62C170060F09A /* SyCCTableData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SyCCTableData.cpp; sourceTree = "<group>"; };
+		6BB7AA091CC62C170060F09A /* SyCCTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyCCTableData.h; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -313,6 +328,14 @@
 				6BB7A9F51CC5F4A00060F09A /* RankTableDataSource.h */,
 				6BB7A9F81CC5F4B60060F09A /* RankTableCell.cpp */,
 				6BB7A9F91CC5F4B60060F09A /* RankTableCell.h */,
+				6BB7A9FC1CC60ED50060F09A /* SyCCScene.cpp */,
+				6BB7A9FD1CC60ED50060F09A /* SyCCScene.h */,
+				6BB7AA011CC614770060F09A /* SyCCGridTableView.cpp */,
+				6BB7AA021CC614770060F09A /* SyCCGridTableView.h */,
+				6BB7AA041CC620320060F09A /* SyCCTableItem.cpp */,
+				6BB7AA051CC620320060F09A /* SyCCTableItem.h */,
+				6BB7AA081CC62C170060F09A /* SyCCTableData.cpp */,
+				6BB7AA091CC62C170060F09A /* SyCCTableData.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -507,12 +530,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				6BB7AA061CC620320060F09A /* SyCCTableItem.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				6BB7A9F61CC5F4A00060F09A /* RankTableDataSource.cpp in Sources */,
+				6BB7AA031CC614770060F09A /* SyCCGridTableView.cpp in Sources */,
+				6BB7A9FE1CC60ED50060F09A /* SyCCScene.cpp in Sources */,
 				6BB7A9FA1CC5F4B60060F09A /* RankTableCell.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				6BB7AA0A1CC62C170060F09A /* SyCCTableData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,10 +547,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB7AA071CC620320060F09A /* SyCCTableItem.cpp in Sources */,
 				6BB7A9FB1CC5F4B60060F09A /* RankTableCell.cpp in Sources */,
+				6BB7A9FF1CC60ED50060F09A /* SyCCScene.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				6BB7A9F71CC5F4A00060F09A /* RankTableDataSource.cpp in Sources */,
+				6BB7AA0B1CC62C170060F09A /* SyCCTableData.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
